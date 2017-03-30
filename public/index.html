@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <form id="formA">
+      <input type="text" id="prodId" placeholder="ID" required>
+      <input type="text" id="title" placeholder="Title" required>
+      <select class="selected">
+        <option value="true">True</option>
+        <option value="false">False</option>
+      </select>
+      <input type="submit" value="Submit New Todo">
+    </form>
+    <button id="getData">Get Todos</button>
+    <button id="deleteData">Delete Data</button>
+    <button id="updateData">Update Data</button>
+    <div class="displayData">
+    <ul>
+    </ul>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
